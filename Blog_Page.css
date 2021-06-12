@@ -1,0 +1,103 @@
+* {
+    margin:  0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    position: relative; 
+ }
+
+/* ----------This is Header---------------- */
+header {
+    background-color: rgb(202,187,183);
+    margin: auto;
+   justify-content: space-between;
+   height: 100px;
+}
+.logo {
+    padding-left: 100px;
+    float:right;
+    margin: 0%;  
+}
+table tr td p {
+    float: right;
+    padding-left: 150px;
+    font-size: 17px;
+    margin: 0%;
+    font-weight: bold;   
+}
+/* ---------End  of Header---------- */
+
+/*----------Start of Navigation Bar With Links------*/
+#navig {
+    background-color: rgb(198,82,82);
+    height: 50px; 
+    text-align: right; 
+    justify-content: space-between;
+    padding-right: 40px;
+}
+li {
+   display: inline-block ;
+    padding-bottom: 0px ;
+    font-weight: bold;
+    padding: 15px;
+    font-size: 25px;
+  }
+   ul {
+        margin-top: 0;
+        margin-bottom: 0;   
+    }
+    a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    /*----End of Navigation Bar ---- */
+
+
+/*-----Start of Main Content----- */
+
+.blog {
+    padding-top: 10px;
+}
+
+
+article {
+    text-align: center;
+    padding: 60px;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+#video {
+    padding: 15px;
+    padding-bottom: 15px;
+}
+
+/* ----End of Main Content----- */
+
+
+
+
+/*-----Start of Footer-------- */
+footer {
+    height: 130px;
+    background-color: rgb(202,187,183);
+    text-align:center;
+    width: 100%;    
+    position: relative;
+    bottom: 0px;
+   
+    
+}
+    
+#logopic {
+    margin-top: 30px;
+}
+/*-----End of Footer ----- */
+
+
+
+
+

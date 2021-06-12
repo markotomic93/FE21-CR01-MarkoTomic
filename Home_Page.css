@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+   width: 100%;
+   min-height: 100vw;
+   position: relative;
+   min-width: 100vw;
+   
+   
+}
+/* ----------This is Header---------------- */
+header {
+    background-color: rgb(202,187,183);
+    margin: auto;
+   position: relative;
+   display: block;
+   height: 100px;
+}
+.logo {
+    padding-left: 100px;
+    float:right;
+    margin: 0%;  
+}
+table tr td p {
+    float: right;
+    padding-left: 150px;
+    font-size: 17px;
+    margin: 0%;
+    font-weight: bold;   
+}
+/* ---------End  of Header---------- */
+
+/*----------Start of Navigation Bar With Links------*/
+#navig {
+    background-color: rgb(198,82,82);
+    height: 50px; 
+    text-align: right; 
+    justify-content: space-between;
+    padding-right: 40px;
+}
+li {
+   display: inline-block ;
+    padding-bottom: 0px ;
+    font-weight: bold;
+    padding: 15px;
+    font-size: 25px;
+  }
+   ul {
+        margin-top: 0;
+        margin-bottom: 0;   
+    }
+    a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    /*----End of Navigation Bar ---- */
+
+
+    /*-----Start of Main Content----- */
+h1 , #image1 {
+    text-align: center;
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#p2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.text1 {
+    font-weight: bold;
+}
+table.center {
+    margin: auto; 
+    border-collapse: separate;
+    border-spacing: 50px 0;
+    }
+ tr {
+    width: 150px;
+    text-align: center;
+    padding: 5px;
+ }
+
+ .content {
+padding-bottom: 200px;
+
+ }
+ /* ----End of Main Content----- */
+
+
+ /*-----Start of Footer-------- */
+ footer {
+    height: 130px;
+    background-color: rgb(202,187,183);
+    text-align:center;
+    width: 100%;    
+    position: absolute;
+    bottom: 0px;
+   
+    
+}
+    
+#logopic {
+    margin-top: 30px;
+}
+/*-----End of Footer ----- */
+
+
+
