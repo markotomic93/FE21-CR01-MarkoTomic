@@ -1,33 +1,46 @@
 * {
     margin:  0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     width: 100%;
     min-height: 100vh;
     position: relative; 
+    margin: 0;
  }
 
 /* ----------This is Header---------------- */
 header {
     background-color: rgb(202,187,183);
-    margin: auto;
-   justify-content: space-between;
-   height: 100px;
+position: relative; 
+   width: 100%;
+   height: 8em; 
+ padding: .5em 5em;
+  text-align: center;
+  padding: auto;
+  display:inline-block;
+
 }
-.logo {
-    padding-left: 100px;
-    float:right;
-    margin: 0%;  
-}
-table tr td p {
+header img{
     float: right;
-    padding-left: 150px;
-    font-size: 17px;
-    margin: 0%;
-    font-weight: bold;   
+    width: 20em;  
+    position: absolute;
+    right: 2em;
+    
 }
+header  p {
+    font-size: 1.5rem; 
+    display: inline-block; 
+    padding-top: 3rem;
+    position:absolute;
+    right: 400px ;
+    left:0px ;
+ 
+  
+}
+
 /* ---------End  of Header---------- */
 
 /*----------Start of Navigation Bar With Links------*/
@@ -35,8 +48,8 @@ table tr td p {
     background-color: rgb(198,82,82);
     height: 50px; 
     text-align: right; 
-    justify-content: space-between;
-    padding-right: 40px;
+   position:relative ;
+    bottom: 5px;
 }
 li {
    display: inline-block ;
@@ -87,7 +100,7 @@ footer {
     text-align:center;
     width: 100%;    
     position: relative;
-    bottom: 0px;
+    bottom: 0%;
    
     
 }
